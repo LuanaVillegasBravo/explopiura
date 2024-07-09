@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorando Piura</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding-bottom: 6em; 
+            background-color: #FFFBDA;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            background-color: #ED9455;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            width: 100%;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #fff;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.2em;
+            transition: color 0.3s ease;
+            display: flex;
+            align-items: center;
+        }
+
+        nav ul li a:hover {
+            color: #ffccbc;
+        }
+
+        nav ul li a img {
+            margin-right: 8px;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 1200px;
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+            margin-top: 20px;
+        }
+
+        section {
+            flex: 1 1 60%;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+
+        section h2 {
+            color: #FFBB70;
+            font-size: 2em;
+            margin-top: 0;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 10px;
+        }
+
+        section h3 {
+            color: #FFBB70;
+            font-size: 1.5em;
+            margin-top: 0;
+        }
+
+        section p {
+            line-height: 1.6;
+            color: #444;
+        }
+
+        aside {
+            flex: 1 1 30%;
+            background-color: #FFEC9E;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        aside h2 {
+            margin-top: 0;
+            font-size: 1.5em;
+            color: #ED9455;
+        }
+
+        aside h3 {
+            margin-top: 1em;
+            font-size: 1.2em;
+            color: #FFBB70;
+        }
+
+        aside p {
+            line-height: 1.6;
+            color: #444;
+        }
+
+        footer {
+            background-color: #ED9455;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+
+        .gallery-item {
+            flex: 0 1 calc(50% - 10px);
+            margin-bottom: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            overflow: hidden; 
+            border-radius: 8px;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        @media (max-width: 768px) {
+            main {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            section {
+                width: 100%;
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+
+            aside {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Geografía de Piura</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="HistoriaPiura.html"><img src="https://img.icons8.com/ios-filled/24/ffffff/historical.png" alt="Historia Icono"> Historia</a></li>
+                <li><a href="EconomiaPiura.html"><img src="https://img.icons8.com/ios-filled/24/ffffff/economic-improvement.png" alt="Economía Icono"> Economía</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="Localización">
+            <h2>Localización</h2>
+            <p>Piura se encuentra en la zona norte de Lima, específicamente en el noroeste, abarca la costa y la sierra. Por el norte limita con Tumbes y Ecuador, por el sur con Lambayeque, por el este con Cajamarca y por el oeste con el Océano Pacífico. Políticamente contiene 8 provincias y 64 distritos, siendo sus provincias: Sullana, Talara, Paita, Sechura, Piura siendo esta la capital del departamento, Morropón, Ayabaca y Huancabamba. Piura se encuentra al norte de Lima. Tiene una extensión de 36,403 kilómetros y su población llega al millón seiscientos mil habitantes, convirtiéndose en el segundo departamento más poblado.</p>
+            <h3>Mapa</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63575.07158876885!2d-80.70800599509226!3d-5.192998934379093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x904a107c793c39b7%3A0x1de8948d1c01fe28!2sPiura!5e0!3m2!1ses-419!2spe!4v1716914698929!5m2!1ses-419!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+   	 	<section id="Clima">
+        <h2>Clima</h2>
+        <p>Piura se caracteriza por su clima seco y tropical, brindando una experiencia climática singular a quienes la visitan. Con una temperatura promedio anual de 24ºC, sus días soleados y cálidos son la norma. Sin embargo, durante el verano, los termómetros pueden alcanzar los 35ºC, y en casos extremos, durante el fenómeno de El Niño, incluso superar los 40ºC, haciendo que la sensación térmica se vuelva intensa y demandante.</p>
+        <p>El período comprendido entre enero y marzo trae consigo las épocas de lluvias, refrescando el ambiente y revitalizando la exuberante vegetación que caracteriza a esta zona. Este fenómeno añade un matiz único a la experiencia, proporcionando un contraste refrescante en medio del clima generalmente seco.</p>
+        <p>En contraste, en las zonas andinas de Piura, las mañanas se presentan templadas, con una suave brisa que acaricia las montañas, mientras que las noches descienden las temperaturas, regalando cielos estrellados y un frescor revitalizante. Esta diversidad climática ofrece un abanico de sensaciones a los visitantes, desde el cálido abrazo del sol hasta la frescura nocturna de las montañas, creando un entorno perfecto para explorar y descubrir.</p>
+    </section>
+       
+       <section id="FlorayFauna">
+        <h2>Flora y Fauna</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <h3>Flora</h3>
+                <img src="https://www.hogarmania.com/archivos/202211/algarrobo-arbol-beneficioso-para-el-ecosistema-1280x720x80xX.jpg" alt="Algarrobo">
+                <p>El algarrobo es uno de los árboles más característicos de Piura, siendo un componente vital del ecosistema seco tropical que domina la región.</p>
+            </div>
+            <div class="gallery-item">
+                <h3>Fauna</h3>
+                <img src="https://peru.info/archivos/publicacion/327-imagen-113054222022.jpg" alt="Oso de anteojos">
+                <p>El oso de anteojos es un animal emblemático de los Andes peruanos y se encuentra presente en las áreas montañosas de Piura.</p>
+            </div>
+        </div>
+    </section>
+        <section id="UsoRecursos">
+        <h2>Uso de los Recursos por Parte del Gobierno Regional</h2>
+        <h3>Recursos Petroleros y Gasíferos</h3>
+        <p>La región de Piura tiene establecimientos petroleros y gasíferos en distintas áreas del departamento como Negritos, Lobitos, Los Órganos y en el zócalo continental frente a las costas de Paita. Su principal uso es ser una de las principales refinerías del país, abasteciendo a gran parte del país con este recurso.</p>
+        <h3>Recursos Hídricos</h3>
+        <p>Son aprovechados por la actividad agropecuaria en los valles formados por la cuenca hidrográfica en los ríos Piura y Chira, ampliando las áreas cultivables por las obras de irrigación como son San Lorenzo y Poechos. Los principales cultivos en la costa son: maíz amarillo, algodón pima, arroz, limones, papaya, mangos y otras frutas, de las cuales algunas se exportan. En cambio, en los valles interandinos de la sierra, solo se producen alimentos dirigidos mayormente al consumo regional.</p>
+        <h3>Recursos Minerales Metálicos y No Metálicos</h3>
+        <p>La región contiene considerables recursos metálicos y no metálicos como el oro, cobre, zinc, plomo, fosfatos y bentonita. Dentro de los recursos metálicos, estos minerales son explotados por diversas compañías en la región. Algunos establecimientos en Tambogrande y Río de Blanco se encuentran en espera de aprobación para su habilitación. Dentro de los no metálicos, el gobierno firmó un contrato en el año 2005 para la explotación del fosfato de Bayovar.</p>
+        <h3>Recursos Agrícolas</h3>
+        <p>Piura cuenta aproximadamente con 227,572 hectáreas que son fértiles para el cultivo. La agricultura es una actividad principal en Piura, con cultivos como el arroz, el mango, el banano y el limón. Las técnicas de riego y la adaptación a las condiciones climáticas son esenciales y se usan de manera sostenible por el Gobierno. Los proyectos de irrigación, como el Proyecto Especial Chira-Piura, ayudan a regular y distribuir el agua para la agricultura.</p>
+        <h3>Recursos Marinos</h3>
+        <p>Los recursos marinos son abundantes en esta región debido a la cantidad de playas localizadas en el departamento. Siendo así aprovechado por el gobierno al ser la pesca una de las principales actividades económicas de la región y distribuidor en el país. Sus principales puertos se encuentran en Bayóvar y Paita, además de contar con caletas.</p>
+    </section>
+    
+
+        <aside id="ZonasProtegidas">
+            <h2>Zonas Protegidas</h2>
+            <h3>Coto de Caza “El Angolo”</h3>
+            <p>Su principal objetivo es mantener y proteger la biodiversidad de especies en la región y realizar una casa controlada de ciertas especies. Esta actividad es regulada por las autoridades correspondientes, garantizando el equilibrio ecológico. Además, es el único coto de caza en el Perú en donde se practica la caza deportiva de manera regulada.</p>
+            <h3>Parque Nacional Cerros de Amotape</h3>
+            <p>Su conservación es fundamental ya que funciona como corredor biológico y brinda una mayor conectividad de los ecosistemas. También busca la conservación de las especies, especialmente las que se encuentran en peligro de extinción, así como de los ecosistemas.</p>
+            <h3>Área de Conservación Regional Bosques Secos de Salitral – Huarmaca</h3>
+            <p>Su conservación es fundamental debido a que busca preservar y reparar los bosques secos en la región, siendo las causas de estos daños la deforestación, la agricultura intensiva y el sobrepastoreo.</p>
+            <h3>Manglares de San Pedro</h3>
+            <p>Su objetivo es la conservación de la biodiversidad, ecosistemas y servicios ambientales de la región. Algunas de las causas de los daños en estas áreas son la deforestación, contaminación ambiental y la conversión de los manglares en áreas agrícolas.</p>
+            <h3>Reserva Nacional Sistema de Islas, Islotes y Puntas Guaneras</h3>
+            <p>Su conservación es muy importante a causa de la fragilidad de los ecosistemas marinos y preservación de aves guaneras, el cual es uno de los principales recursos naturales de la región, garantizando así el equilibrio ecológico de la reserva nacional. Además, brinda información sobre educación ambiental y concientizaciones sobre la importancia de la conservación de las especies marinas.</p>
+            <h3>Zona Reservada Illescas</h3>
+            <p>Su principal objetivo es preservar la biodiversidad y la conservación de ecosistemas. Además de la conservación de importantes sitios arqueológicos, culturales y distintos testimonios de poblaciones que habitaron la región. Otro objetivo, es la fomentación del turismo sostenible.</p>
+        </aside>
+
+        <section id="RelacionHombreMedio">
+            <h2>Relación del Hombre y su Medio Geográfico</h2>
+            <p>La relación entre el hombre y su medio geográfico en Piura podría considerarse compleja y ha formado con el tiempo tanto la cultura y la economía de la región.</p>
+            <p>Este departamento es conocido por su clima cálido y seco, con temperaturas entre los 20 y 35 grados Celsius durante todo el año. Esto ha influido significativamente en las actividades agrícolas de la región al ser uno de los principales productores de productos agrícolas del mango, el limón, el banano orgánico y el arroz. La disponibilidad de agua a través de los ríos Piura y Chira es muy importante para la irrigación, permitiendo el cultivo de las tierras fértiles que posee el departamento.</p>
+            <p>Al contar con una extensa costa en el océano Pacífico, favorece el desarrollo de una importante industria pesquera. La pesca artesanal y la pesca industrial son actividades económicas vitales, con especies como el atún, el bonito y el lenguado siendo particularmente relevantes. Además, el puerto de Paita es uno de los más importantes del país y sirve como un centro de exportación de productos pesqueros.</p>
+            <p>También es rica en recursos minerales. La minería ha crecido considerablemente, contribuyendo de manera significativa a la economía local. La explotación de estos recursos naturales ha traído desarrollo económico, pero también algunos desafíos ambientales y sociales que deben ser gestionados de manera sostenible y tomados con la relevancia que merecen.</p>
+            <p>La belleza natural de Piura, con sus playas como Máncora, Colán y Los Órganos, atrae a turistas nacionales e internacionales. El turismo se ha convertido en una fuente importante de ingresos para la región, promoviendo el desarrollo de infraestructura y servicios relacionados y que sus ciudadanos han sabido aprovechar razonablemente.</p>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Explorando Piura. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

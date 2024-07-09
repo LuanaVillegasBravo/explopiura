@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia de Piura</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding-bottom: 8em;
+            background-color: #FFFBDA;
+        }
+
+        header {
+            background-color: #FFBB70;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        nav {
+            background-color: #ED9455;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            display: flex;
+            background-color: #FFEC9E;
+            justify-content: space-between;
+            padding: 20px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        article {
+            flex: 2;
+            background-color: #FFFBDA;
+            padding: 20px;
+            margin-right: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        aside {
+            flex: 1;
+            background-color: #FFFBDA;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #ED9455;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .visitor-form {
+            background-color: #FFFBDA;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .visitor-form input,
+        .visitor-form textarea {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .visitor-form input[type="submit"] {
+            background-color: #FFBB70;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .visitor-form input[type="submit"]:hover {
+            background-color: #ED9455;
+        }
+
+        .attractions {
+            padding: 20px;
+            background-color: #FFFBDA;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .attractions img {
+            width: 100%;
+            margin-bottom: 10px;
+            border-radius: 10px;
+        }
+
+        .carousel {
+            display: flex;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .carousel img {
+            width: 100%;
+            transition: transform 0.5s ease;
+        }
+
+        .carousel:hover img {
+            transform: scale(1.05);
+        }
+
+        .carousel-btn {
+            background-color: #FFBB70;
+            border: none;
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin: 5px;
+        }
+
+        .carousel-btn:hover {
+            background-color: #ED9455;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Historia de Piura</h1>
+        <nav>
+            <a href="index.html"><i class="fas fa-home"></i> Inicio</a>
+            <a href="GeografiaPiura.html"><i class="fas fa-map-marked-alt"></i> Geografía</a>
+            <a href="EconomiaPiura.html"><i class="fas fa-chart-line"></i> Economía</a>
+        </nav>
+    </header>
+    <section>
+        <article>
+            <h2>Fundación y Culturas</h2>
+            <img src="Piiura.jpg" alt="Fundación de Piura" style="width:100%; border-radius:10px; margin-bottom:20px;">
+            <h3>Fundación</h3>
+            <p>Fue fundada como “San Miguel” por los españoles entre mayo y agosto del año 1532 en un territorio denominado “Tangarará”, en la cercanía del río Chira. Mientras que, el departamento de Piura, fue fundado y constituido en el año 1861 durante el gobierno de Ramón Castilla. En este proceso, se le asignaron 3 provincias: Ayabaca, Piura y Paita.</p>
+            <h3>Culturas que habitaron</h3>
+            <h4>Cultura Tallán</h4>
+            <h5>Ubicación</h5>
+            <p>Fue una antigua civilización peruana pequeña en comparación con las demás culturas prehispánicas. Dentro de los horizontes e intermedios culturales en nuestra historia, los Tallán se encuentran en el intermedio tardío, aproximadamente entre los años 500 d.C hasta el año 1500 d.C. Se ubicaron entre Piura y Tumbes, llegando hasta Lambayeque y parte sur de Ecuador.</p>
+            <h5>Sociedad</h5>
+            <p>La sociedad Tallán se caracterizaba por su organización social jerárquica, donde cada clase tenía niveles de poder. Era liderada por jefes y sacerdotes que influenciaron sobre la población, reflejando una compleja organización que marcaba las relaciones dentro de la comunidad.</p>
+            <h5>Divinidades</h5>
+            <p>Se trataba de una cultura sumamente religiosa que veneraba divinidades presentes en mitos y leyendas, variando en función de su etnia. Veneraban a personajes mitológicos como Ñaricwalac, Malco y Mec-Nom, y rendían culto a la luna, considerada más poderosa que el sol por su presencia tanto de día como de noche, siendo protectora de los caminantes en el desierto. Otros dioses incluían a Hualac o Walac, asociado con los agricultores; Watán o Guatán, dios de los pescadores; Huamancanfac, dios del guano; Patá, el primer pez; Sitán, representante del remolino o cascada de agua; y las conchas, consideradas como hijas del dios del mar.</p>
+            <h5>Aportes culturales</h5>
+            <p>La cultura Tallán en el Perú realizó importantes aportes culturales:</p>
+            <ul>
+                <li><strong>Agricultura:</strong> Destacaron en la producción de maíz y algodón, siendo este último fundamental para su industria textil. Además, cultivaron guayabas, lúcumas, pepinos y paltas, diversificando la agricultura en la región y los recursos de la cultura.</li>
+                <li><strong>Pesca:</strong> Se beneficiaron de su ubicación cerca del mar, permitiendo desarrollar una importante actividad pesquera. Utilizando redes y balsas, pescaban especies como la caballa, la trucha y el bagre, asegurando así una fuente de alimento.</li>
+                <li><strong>Ganadería:</strong> Domesticaron principalmente auquénidos, los cuales brindaron grandes satisfacciones a la población. Estos animales proporcionaron transporte de sus productos y alimento para la población.</li>
+                <li><strong>Arquitectura:</strong> Edificaron templos religiosos en áreas específicas. Adoraron al sol y a sus ídolos de piedra, que llamaron Guantan. Tuvieron también imágenes de madera, hechas a manera de figura con sus mitras.</li>
+                <li><strong>Cerámica:</strong> Su cerámica guarda cierta relación con culturas como la Chimú e Inca; sin embargo, algunos de sus rasgos propios son el moldear vasijas con paletas, el teñir con humo y las cerámicas que presentan decoraciones iconográficas.</li>
+                <li><strong>Culto a los muertos:</strong> Veneraban a sus muertos, pensando que vivían con gran deleite en el otro mundo. El entierro de un noble era muy importante. Los nobles eran enterrados en grandes tumbas con espacios para acompañantes. El entierro incluía el sometimiento al xati, una especie de suicidio colectivo de los acompañantes del noble para servirlo en el otro mundo.</li>
+            </ul>
+            <h4>Cultura Vicús</h4>
+            <h5>Ubicación</h5>
+            <p>Se ubicaron en lo que es actualmente la ciudad de Chulucanas, en las provincias de Morropón, Ayabaca y Huancabamba. Duraron desde el año 200 a.C hasta el 400 d.C.</p>
+            <h5>Sociedad</h5>
+            <p>Su sociedad era jerarquizada, con bases teocráticas y militaristas. Se organizaban en monarcas y nobles, comerciantes, agricultores y esclavos. Su sede principal se encontraba en el cerro Vicús. Dominando la costa norte del departamento y parte de Lambayeque. Los pobladores eran principalmente artistas y artesanos, los cuales transmitían sus técnicas y estilos cerámicos.</p>
+            <h5>Divinidades</h5>
+            <p>Su divinidad principal fue Aia Paec, también conocido como “el degollador”, el cual se originó de los Mochica. Era un ser antropomorfo con colmillos de felino. Se consideraba que favorecía a las cosechas y era capaz de transformar a los humanos en demonios. Recibía sacrificios en ciertas ceremonias hechas por la cultura. Otras divinidades eran el mar, ya que creían que ahí vivían sus dioses y el sol, ya que creían que por las noches entraba en el mar y salía ileso al llegar la mañana.</p>
+            <h5>Aportes culturales</h5>
+            <p>La cultura Vicús realizó importantes aportes culturales:</p>
+            <ul>
+                <li><strong>Cerámica:</strong> Fue su expresión cultural más representativa y principal aporte por su belleza y técnica. Tuvieron fuertes influencias en los Chavín. Sus temáticas eran ollas, platos y vasijas de uso diario o ceremoniales. Tuvo 3 etapas principales: Vicús negativo, Vicús blanco sobre rojo, y Vicús engobados monocromos.</li>
+                <li><strong>Escultura:</strong> Representaba escenas diarias, figuras humanas y animales. Sus creaciones humanas y animales eran muy exageradas, con ojos abultados, brazos alargados y nariz prominente y ganchuda. Además, también realizaban creativas figuras zoomorfas y antropomorfas.</li>
+                <li><strong>Arquitectura:</strong> Estaba organizada en función a la posición que presentaban los astros como el sol, la luna y las estrellas. Sus construcciones estaban hechas de barro y algunas de adobe, con tragaluces y techos inclinados. Sus construcciones más representativas fueron los centros ceremoniales y sus tumbas.</li>
+                <li><strong>Metalurgia:</strong> Utilizaban el oro, plata, cobre, aleaciones y piedras preciosas para crear diversos objetos como máscaras, cuentas, discos, collares, pectorales, entre otros.</li>
+                <li><strong>Textilería:</strong> Tenían gran habilidad para la textilería, aunque no era tan llamativa como su cerámica y metalurgia. Sus prendas eran simples para el uso diario y unas más elaboradas para ocasiones especiales.</li>
+            </ul>
+            <h3>Video promocional</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/BUzNaQcAhSM?si=DznEsXBbrzOjnl-1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </article>
+        <aside>
+            <h2>Folklore y Tradiciones</h2>
+            <h3>Danza</h3>
+            <p> Piura es uno de los departamentos más ricos en arte, gastronomía y folklore. Cuenta con variedades de danzas tradicionales que son influenciadas por creencias y costumbres. Estas resaltan por la pasión, espiritualidad y alegría con la que se interpretan.</p>
+            <ul>
+                <li><strong>Marinera Norteña:</strong> Probablemente, es una de las danzas más representativas del Perú. Los bailarines presentan una postura erguida y movimientos laterales. En la vestimenta la mujer lleva un vestido típico del pueblo que representa elegancia. En cambio, el hombre se viste como chalán, lleva un poncho, sombrero de paja y una faja en la cintura. Ambos bailarines llevan pañuelos. El origen de este baile se da con otro nombre (Zamacuca). Durante la guerra con Chile, el escritor Abelardo Gamarra la bautizó como Marinera en honor a la Marina de Guerra del Perú.</li>
+                <li><strong>Tondero:</strong> Proviene de la provincia de Morropón. El tondero es una danza vivaz, alegre y atrevida. Está acompañada por una guitarra y un cajón. Habitualmente es una pareja en el escenario, quienes con movimientos de punta de pies y taloneo, coquetean durante la danza. Los varones suelen vestir camisa blanca, pantalón negro, sombrero de paja, fajas y ponchos. Las mujeres van con polleras o faldas amplias y blusas de color claro adornadas con blondas. Ambos bailarines van con pañuelos en la mano y descalzos para recordar su conexión con la tierra y el origen humilde.</li>
+                <li><strong>Las Hilanderas de Huancabamba:</strong> Esta danza se presenta durante las fiestas patronales. Es una escenificación tomada de diversos sucesos culturales y costumbristas de la provincia de Huancabamba. Como parte central, se realiza la representación de un duelo. En donde dos jóvenes que son considerados "los guapos del pueblo" se enfrentan por el amor de una mujer. Luego del enfrentamiento, las parejas regresan a la pista a bailar. Los hombres visten camisa blanca, pantalón negro, poncho habitualmente rojo, sombrero de paja y funda para el arma con el que va a defender su honor. Las mujeres llevan el cabello trenzado, visten anacos azules o negros, adornados con hilos de colores en el borde de la falda, y calzan ojotas. Algunas llevan en las manos copos de lana, huso y rueca para ir hilando mientras danzan, de ahí el nombre del baile.</li>
+                <li><strong>El Pacasito:</strong> El origen de esta danza es en la provincia de Ayabaca. Existen dos versiones populares sobre el porqué de su nombre. La primera es por el pacazo, reptil propio de la zona. La segunda se refiere a la relación del significado de la palabra 'pacasito', que en quechua es 'escondido', con el espíritu del baile. Los varones se esconden debajo de las faldas de las bailarinas para no ser atrapados por sus capataces que no los dejarán participar en la procesión del Señor Cautivo de Ayabaca. La vestimenta de este baile se caracteriza porque las mujeres llevan blusas coloridas, pecheras con cintas multicolores, falda negra, sombrero de paja y ojotas. Los hombres van con camisa y pantalón blanco, chalina, botas con escarpines y la imagen del Señor de Cautivo en el pecho.</li>
+            </ul>
+            <h3>Música</h3>
+            <p>La música tradicional de Piura en el Perú es rica y diversa, reflejo de la influencia de diferentes culturas y ritmos. Desde la época colonial hasta hoy, la cultura musical se ha expresado de muchas maneras a través de los instrumentos que se usan, las letras de las canciones y las danzas.</p>
+            <ul>
+               <li><strong>Música Criolla:</strong> Surge de influencias sociales, políticas, económicas y geográficas de la costa, sierra y selva. Durante la época colonial, la música y el baile españoles impactaron más en la costa y sierra a través de conquistadores y elites dominantes. En la costa, la rica tradición musical española evolucionó hasta convertirse en la música criolla en la época republicana. Inicialmente, "criollo" significaba esclavo nacido en casa de su señor o negro nacido en las colonias, pero según Jean Corominas, se adaptó del portugués "crioulo" para referirse a blancos nacidos en las colonias.</li>
+               <li><strong>Festejo:</strong> Es el género que mejor representa la cultura afroperuana en Lima e Ica, tiene varias teorías sobre su origen, algunas sugiriendo que no es una supervivencia pura de la cultura africana mestiza, sino creación de un compositor criollo. Es una música y danza de parejas independientes o interdependientes. Su acompañamiento instrumental, inicialmente rítmico con tambores, botijas de arcilla, calabazas y campanillas de madera, se enriqueció con la inclusión de la vihuela y luego la guitarra. Este género no es tan prominente en Piura como en otras regiones, pero aún así se ve su presencia en Piura.</li>
+               <li><strong>Cumanas:</strong> Las cumanas es un género literario y musical que proviene de Piura, Lambayeque y Tumbes. Se caracteriza por ser una forma de versificación popular que consiste en cuartetos octosílabos, con o sin rima consonante, improvisados en competencias entre dos individuos. Aunque no es bailable, es vigente entre personas mayores y aborda diversas temáticas como la religión, el amor y la política, siendo valiosa para la reconstrucción de la historia regional desde una perspectiva popular.</li>
+               <li><strong>Vals:</strong> Es un género con una adaptación del vals europeo extendido desde Viena y es combinado con la música criolla en Perú, mejor denominado como música criolla y afroperuana. Los instrumentos juegan indistintamente con 3 ⁄ 4 y con 6/8, así también la acentuación del texto al cantar.</li>
+           </ul>
+            <h2>Gastronomía</h2>
+            <p>La gastronomía piurana es una de las más variadas y exquisitas del Perú. Sus recursos geográficos permiten su gran éxito, con una herencia culinaria ancestral que abarca desde animales marinos hasta ganado.</p>
+            <p>Con la llegada de los españoles en el siglo XVI, se introdujeron nuevos ingredientes y técnicas culinarias, integrándose trigo, cebada, arroz, ganado bovino, porcino y ovino, así como diversos condimentos y especias. Esta fusión dio lugar a platos que combinan ingredientes autóctonos con los traídos por los colonizadores.</p>
+            <p>Durante la época republicana, Piura experimentó migraciones, incluyendo la llegada de chinos y europeos, quienes enriquecieron la gastronomía local con técnicas y productos como la soya, el kion (jengibre) y los fideos. Entre sus platos destacan:</p>
+            <ul>
+                <li><strong>Ceviche de Mero:</strong> Origen en Sechura, con trozos de pescado fresco aliñados con chicha o jugo de tumbo.</li>
+                <li><strong>Seco de Cabrito:</strong> Reconocido en el norte del Perú, jugoso y aderezado con cilantro y chicha de jora.</li>
+                <li><strong>Chicha de Jora:</strong> Bebida principal acompañante de los platos norteños, con gran significado tradicional.</li>
+                <li><strong>Malarrabia:</strong> Plato tradicional de Semana Santa con plátano maduro, queso y salsa de cebolla, tomate y ají, acompañado de arroz, menestras y pescado.</li>
+            </ul>
+        </aside>
+    </section>
+    <div class="attractions">
+        <h2>Línea de Tiempo de Piura</h2>
+        <p>Conoce los hitos más importantes de la historia de Piura a lo largo del tiempo.</p>
+        <div class="carousel">
+            <button class="carousel-btn" onclick="prevSlide()">&#10094;</button>
+            <img src="imagenes/PIURA8.jpg" alt="Hito 1">
+            <button class="carousel-btn" onclick="nextSlide()">&#10095;</button>
+        </div>
+        <ul>
+            <li><strong>12,000 a.C:</strong> Primeros vestigios humanos encontrados. Estos hallazgos indican la presencia de grupos principalmente pesqueros.</li>
+            <li><strong>1800 a.C:</strong> Primeros humanos que trabajaron en la tierra, dando inicio a la agrícultura en el departamento.</li>
+            <li><strong>Vicus:</strong> Abarcó desde fines del año 100 a.C. hasta el 400 d.C.</li>
+            <li><strong>Tallán:</strong> Se extienden desde el 500 d.C hasta el 1500 d.C.</li>
+            <li><strong>Siglo XII:</strong> La expansión del imperio incaico llega a Piura.</li>
+            <li><strong>1532:</strong> Pizarro funda la ciudad de San Miguel de Piura en Tangarará.</li>
+            <li><strong>1588:</strong> La ciudad se establece definitivamente.</li>
+            <li><strong>Colonia:</strong> El puerto de Paita fue un importante punto comercial entre Perú y Europa. Aumento en la producción de algodón nativo y ganado caprino.</li>
+            <li><strong>1821:</strong> Se declara la independencia de Piura.</li>
+            <li><strong>1837:</strong> Piura fue elevada a la categoría de Provincia Litora</li>
+            <li><strong>1861:</strong> Ramón Castilla crea el departamento de Piura. Además, se consolida como productora y exportadora de algodón pima.</li>
+            <li><strong>1871:</strong> Se descubre petróleo en Talara, y se establece la primera refinería de petróleo en la ciudad</li>
+        </ul>
+    </div>
+    <footer>
+        <p>&copy; 2024 Departamento de Piura, Perú</p>
+    </footer>
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.carousel img');
+
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.style.display = i === index ? 'block' : 'none';
+            });
+        }
+
+        function prevSlide() {
+            currentSlide = (currentSlide > 0) ? currentSlide - 1 : slides.length - 1;
+            showSlide(currentSlide);
+        }
+
+        function nextSlide() {
+            currentSlide = (currentSlide < slides.length - 1) ? currentSlide + 1 : 0;
+            showSlide(currentSlide);
+        }
+
+        showSlide(currentSlide);
+    </script>
+</body>
+</html>

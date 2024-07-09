@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExploPiura</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding-bottom: 8em;
+            background-color: #FFFBDA;
+        }
+
+        header {
+            background-color: #FFBB70;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #ED9455;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            display: flex;
+            background-color: #FFEC9E;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        article {
+            flex: 2;
+            background-color: #FFFBDA;
+            padding: 20px;
+            margin-right: 20px;
+        }
+
+        aside {
+            flex: 1;
+            background-color: #FFFBDA;
+            padding: 20px;
+            width: 30%;
+        }
+
+        footer {
+            background-color: #ED9455;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .visitor-form {
+            background-color: #FFFBDA;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .visitor-form input,
+        .visitor-form textarea {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            box-sizing: border-box; /* Para incluir el padding en el ancho total */
+        }
+
+        .visitor-form input[type="submit"] {
+            background-color: #FFBB70;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .attractions {
+            background-color: #FFFBDA;
+            padding: 20px;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .attractions h2 {
+            margin-bottom: 10px;
+        }
+
+        .attractions img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .attractions img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ExploPiura</h1>
+        <nav>
+            <a href="GeografiaPiura.html"><i class="fas fa-map-marked-alt"></i> Geografía</a>
+            <a href="HistoriaPiura.html"><i class="fas fa-history"></i> Historia</a>
+            <a href="EconomiaPiura.html"><i class="fas fa-chart-line"></i> Economía</a>
+        </nav>
+    </header>
+    <section>
+        <article>
+            <h2>Conoce la historia de Piura</h2>
+            <p>La fundación de San Miguel, luego rebautizada como Piura, marcó un hito significativo en la historia del Perú colonial. Francisco Pizarro, el famoso conquistador español, estableció la ciudad entre los meses de mayo y agosto de 1532. Este acto no solo representó la primera incursión española en el territorio peruano, sino que también inauguró una nueva era de colonización europea en América del Sur.</p>
+            <p>La elección del emplazamiento de San Miguel, cerca del río Chira y en un área conocida como "Tangarará" por los nativos, no fue al azar. La estratégica ubicación ofrecía ventajas geográficas, como acceso a recursos naturales y una posición propicia para el comercio y la defensa. Además, la presencia del río Chira facilitó la comunicación y el transporte, convirtiendo a San Miguel en un centro vital para la expansión colonial española en la región.</p>
+            <p>A lo largo de los siglos posteriores, Piura se consolidó como un importante enclave colonial, sirviendo como centro administrativo, religioso y económico. La ciudad experimentó un crecimiento significativo, atrayendo a colonos, comerciantes y misioneros de diversas partes de Europa y América. La agricultura, en particular la producción de algodón y azúcar, se convirtió en la principal actividad económica de la región, generando riqueza y atrayendo inversiones.</p>
+            <p>El departamento de Piura, oficialmente establecido en 1861 durante el gobierno de Ramón Castilla, reflejó la importancia estratégica y el desarrollo de la región. Con la creación de tres provincias principales -Ayabaca, Piura y Paita- se buscaba una mejor organización administrativa y una gestión más eficiente de los recursos. Esta división también reflejaba la diversidad geográfica y cultural de la región, que abarcaba desde las tierras altas de la sierra hasta las fértiles llanuras costeras.</p>
+            <p>Hasta el día de hoy, Piura sigue siendo una región crucial en el Perú, tanto por su rica historia colonial como por su contribución al desarrollo económico y cultural del país. La herencia de San Miguel y la fundación de Piura continúan siendo recordadas y celebradas como parte integral del patrimonio nacional peruano.</p>
+            <h2>Datos interesantes sobre este departamento</h2>
+            <ul>
+                <li>Capital del Sol y del eterno verano: Piura es conocida como la "Ciudad del Eterno Calor" debido a su clima cálido y seco durante todo el año. Es una de las ciudades más soleadas del mundo, lo que la convierte en un destino popular para quienes buscan disfrutar de playas y paisajes cálidos.</li>
+                <li>La algarrobina: La algarrobina es una bebida emblemática de Piura y toda la región norte del Perú. Se elabora a partir de la algarroba, una leguminosa que crece en la zona. Esta bebida se utiliza para preparar cócteles tradicionales como el "chilcano" y el famoso "algarrobina", una mezcla dulce y deliciosa.</li>
+                <li>Cuna de la cultura Tallán: Piura alberga una rica herencia cultural, incluida la civilización Tallán, que se desarrolló en la región antes de la llegada de los españoles. Los Tallanes dejaron un legado notable en la arquitectura, la cerámica y otras formas de arte, que aún se pueden apreciar en la región.</li>
+                <li>La Plaza de Armas más antigua del Perú: La Plaza de Armas de Piura es una de las más antiguas de América del Sur. Fue construida en 1532 por los conquistadores españoles y ha sido testigo de muchos eventos históricos a lo largo de los siglos.</li>
+                <li>Festivales y celebraciones: Piura es famosa por sus festivales y celebraciones culturales. Uno de los más destacados es la Fiesta de San Juan, que se celebra en junio con bailes, música y procesiones. También están las festividades en honor a la Virgen de la Candelaria en febrero, que incluyen coloridos desfiles y danzas tradicionales.</li>
+                <li>Gastronomía del norte peruano: La cocina piurana es muy variada y deliciosa. Destacan platos como el ceviche de conchas negras, el seco de cabrito, el tamalito verde y el majarisco, una mezcla de mariscos con arroz y frijoles.</li>
+            </ul>
+            <h2>Ruta de Lima a Piura en Google Maps</h2>
+            <iframe
+                width="100%"
+                height="300"
+                frameborder="0"
+                style="border:0"
+                src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d5105955.012558821!2d-79.33020616008958!3d-6.735842324416299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x91aa6332c41f43a9%3A0x10116c7a4c87cb2a!2sLima!3m2!1d-12.046374!2d-77.0427934!4m5!1s0x91aae26d4f0c06d9%3A0x7d9639c7c5c7bde!2sPiura!3m2!1d-5.1944904!2d-80.6328229!5e0!3m2!1ses!2spe!4v1623985584203!5m2!1ses!2spe"
+                allowfullscreen>
+            </iframe>
+        </article>
+        <aside>
+            <h2>Descubre Piura</h2>
+            <iframe width="100%" height="200" src="https://www.youtube.com/embed/Xo-HER4UQRI?si=iz9xSEOckuwMd8JE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h2>Formulario de Búsqueda en Google</h2>
+            <form action="https://www.google.com/search" method="get" target="_blank">
+                <input type="text" name="q" placeholder="Buscar en Google">
+                <input type="submit" value="Buscar">
+            </form>
+            <h2>Galería de Imágenes</h2>
+            <div class="gallery">
+                <img src="imagenes/piura1.jpg" alt="Imagen 1">
+                <img src="imagenes/piura2.jpg" alt="Imagen 2">
+                <img src="imagenes/piura4.jpg" alt="Imagen 3">
+                <img src="imagenes/piura5.jpg" alt="Imagen 4">
+                <img src="imagenes/piura3.jpg" alt="Imagen 5">
+                <img src="imagenes/piura6.jpg" alt="Imagen 6">                               
+            </div>
+        </aside>
+    </section>
+    <section class="visitor-form">
+        <h2>Registro de Visitantes</h2>
+        <form action="submit_form.php" method="POST">
+            <input type="text" name="name" placeholder="Nombre Completo" required>
+            <input type="email" name="email" placeholder="Correo Electrónico" required>
+            <textarea name="comments" placeholder="Comentarios"></textarea>
+            <input type="submit" value="Registrarse">
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Departamento de Piura, Perú</p>
+    </footer>
+</body>
+</html>
